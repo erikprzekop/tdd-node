@@ -1,4 +1,3 @@
-//const { test, describe } = require('node:test');
 const { step } = require('./index.js');
 
 describe('testing game', () => {

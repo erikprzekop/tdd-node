@@ -7,20 +7,26 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 nvm install node
 ```
 
-### If you cloned this repo, you can skip to the section on TDD workflow.
-</br>
+*[Skip this step if you cloned the repo]* Create a project and initialize node:
 
-Create a project and initialize node:</br>
 ```
 mkdir tdd-node && cd tdd-node
 npm init
+```
+
+Initialize the project, and install the tools (you may already have node types)
+
+```
 npm i --savedev @types/node
 npm i --savedev jest
 ```
-Update package.json (the "test" line in "scripts") to read:
+
+
+*[Skip this step if you cloned the repo]* Update package.json (the "test" line in "scripts") to read:
+
 ```
 scripts": {
-    "test": "node index.test.js"
+    "test": "jest"
 },
 ```
 
