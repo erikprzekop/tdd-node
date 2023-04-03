@@ -7,8 +7,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 nvm install node
 ```
 
-### If you cloned this repo, you can skip the rest of the setup section.
-
+### If you cloned this repo, you can skip to the section on TDD workflow.
 </br>
 
 Create a project and initialize node:</br>
@@ -18,7 +17,6 @@ npm init
 npm i --savedev @types/node
 npm i --savedev jest
 ```
-
 Update package.json (the "test" line in "scripts") to read:
 ```
 scripts": {
@@ -45,6 +43,7 @@ The algorithm is defined by the following four rules:
 
 ## Example 
 (where "X" represents a live cell and "-" a dead one):
+
 <table>
 <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>

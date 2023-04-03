@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/erikprzekop/tdd-node#readme",
   "dependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "^18.15.11"
+  },
+  "devDependencies": {
     "jest": "^29.5.0"
   }
 }
