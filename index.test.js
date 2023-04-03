@@ -1,4 +1,4 @@
-const { expect, jest, test, describe } = require('node:test');
+//const { test, describe } = require('node:test');
 const { step } = require('./index.js');
 
 describe('testing game', () => {
@@ -10,6 +10,6 @@ describe('testing game', () => {
             [0,0,0,0,0],
             [0,0,0,0,0]
         ];
-        expect("this string").toBe("this string");
+       expect("this string").toBe("this string");
     });
 });
